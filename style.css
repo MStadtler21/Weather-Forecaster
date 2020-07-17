@@ -1,0 +1,70 @@
+
+h1{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+
+#main-block{
+    font-family: 'Rowdies', cursive;
+    height: 750px;
+    border-radius: 5px;
+}
+
+#input-block{
+    font-family: 'Rowdies', cursive;
+    margin: 0 auto;
+    background-color: lightgrey;
+    height: 750px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#display-block{
+    font-family: 'Rowdies', cursive;
+    margin: 0 auto;
+    background-color:#8585ad;
+    height: 750px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#next,
+#today,
+#title,
+#date,
+#temp,
+#humidity,
+#windSpeed {
+    font-family: 'Rowdies', cursive;
+    font-size: larger;
+}
+
+#current-weather{
+    height: 340px;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 35px;
+    border-radius: 5px;
+}
+
+#future-weather{
+    font-family: 'Rowdies', cursive;
+    height: 340px;
+    background-color: darkgrey;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.btn{
+    font-family: 'Rowdies', cursive;
+    background-color: darkgrey;
+    color: grey;
+}
+
+ul {
+    font-family: 'Rowdies', cursive;
+    list-style: none;
+    padding: 5px;
+    line-height: 3;
+}
