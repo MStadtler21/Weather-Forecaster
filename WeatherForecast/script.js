@@ -30,9 +30,9 @@ $(document).ready(function () {
                 $("#title").text(response.name)
                 var newDate = new Date(response.dt * 1000)
                 $("#date").text(newDate)
-                $(".temp").text("temperature: " + response.main.temp)
-                $(".humidity").text("humidity: " + response.main.humidity)
-                $(".windSpeed").text("wind speed: " + response.main.humidity)
+                $("#temp").text("temperature: " + response.main.temp)
+                $("#humidity").text("humidity: " + response.main.humidity)
+                $("#windSpeed").text("wind speed: " + response.main.humidity)
 
             }
         })
